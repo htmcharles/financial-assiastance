@@ -1,0 +1,179 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff; /* Background color */
+     color: #12182b; /* Text color */
+    }    
+    /* Navbar */
+    .navbar {
+     background-color: #12182b; /* Navbar background color */
+     color: #fff; /* Navbar text color */
+     padding: 10px 20px;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+    }
+    
+    .navbar a {
+     color: #fff; /* Navbar link color */
+     text-decoration: none;
+     margin-right: 20px;
+    }
+    
+    button {
+     background-color: #ffc700; /* Button background color */
+     color: #12182b; /* Button text color */
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    }
+    
+    /* Home Section */
+    .home {
+    display: flex;
+     justify-content: space-between;
+     align-items: center;
+     margin-bottom: 50px;
+    }
+    
+    .home__content {
+     width: 50%;
+    }
+    
+    .home__content h1 {
+     font-size: 36px;
+     margin-bottom: 20px
+    }
+    
+    .home__img img {
+     width: 100%;
+    }
+    
+    /* About Us Section */
+    .about-us {
+     padding: 50px;
+     margin-bottom: 50px;
+    }
+    
+    .about_us__content {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    width: 100%;
+    }
+    
+    .about_us__content img {
+     width: 45%;
+    }
+    
+    .about_us__content h3 {
+     font-size: 24px;
+     margin-bottom: 10px;
+    }
+    
+    .about-us__stats {
+     display: flex;
+    justify-content: space-between;
+     margin-bottom: 20px;
+     color: #fff;
+     background-color: #12182b; /* Navbar background color */
+     padding: 2rem ;
+    }
+    
+    .about-us__content.roles {
+     width: 45%;
+    }
+    
+    .about-us__content.roles div {
+     margin-bottom: 10px;
+    }
+    
+    .about-us__images {
+     display: flex;
+     justify-content: space-between;
+     margin-bottom: 20px;
+    }
+    
+    .about-us__images img {
+     width: 30%;
+    }
+    
+    .about-us__info {
+     display: flex;
+     justify-content: space-between;
+     margin-bottom: 20px;
+    }
+    
+    /* Our Services Section */
+    .our-services {
+     padding: 50px;
+     margin-bottom: 50px;
+    }
+    
+    .our-services h3 {
+     font-size: 24px;
+     margin-bottom: 20px;
+    }
+    
+    .our-services h5 {
+     font-size: 18px;
+     margin-bottom: 30px;
+    }
+    .services{
+        display: flex;
+     justify-content: space-between;
+     width: 100%;
+    }
+    .service {
+     margin-bottom: 20px;
+    }
+    
+    /* Contacts Section */
+    .contacts {
+     padding: 50px;
+     margin-bottom: 50px;
+    }
+    
+    .direct-contact p {
+     margin-bottom: 10px;
+    }
+    
+    /* Newsletter Section */
+    .newsletter {
+     margin-top: 30px;
+    }
+    
+    .newsletter h2 {
+     font-size: 24px;
+     margin-bottom: 20px;
+    }
+    
+    .newsletter p {
+     margin-bottom: 20px;
+    }
+    
+    .newsletter label {
+     display: block;
+     margin-bottom: 10px;
+    }
+    
+    .newsletter input[type="email"] {
+     width: 100%;
+     padding: 10px;
+     margin-bottom: 10px;
+     border-radius: 5px;
+     border: 1px solid #ccc;
+    }
+    
+    .newsletter button {
+     background-color: #ffc700; /* Button background color */
+     color: #12182b; /* Button text color */
+     border: none;
+     padding: 10px 20px;
+     cursor: pointer;
+     border-radius: 5px;
+    }
+    
