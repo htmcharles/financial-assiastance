@@ -447,6 +447,7 @@ html{
     border-radius: 5px;
     box-shadow: 0 2px 20px rgba(0,0,0,0.2);
     width: 370px;
+    padding: 0 0 1rem 0;
     overflow: hidden;
     z-index: 1;
     transition: all 0.5s ease;
@@ -471,6 +472,14 @@ html{
     text-transform: uppercase;
     cursor: pointer;
 }
+#blog .wrapper .card .card-body a{
+    border-radius: 50px;
+    font-size: 12px;
+    margin: 30px;
+    padding: 5px 10px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
 #blog .wrapper .card .card-body .tag-yellow{
     background-color: yellow;
 }
@@ -486,7 +495,12 @@ html{
     font-size: 24px;
     letter-spacing: 1px;
     line-height: 1.4;
+    text-align: center;
     color: #0A2940;
+}
+#blog .wrapper .card .card-body p{
+    margin: 0.5rem;
+    text-align: center;
 }
 #blog .wrapper .card .card-body .footer{
     display: flex;
